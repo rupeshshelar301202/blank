@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [],
@@ -119,7 +119,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LLC CONVERTER.kicad_pro",
+    "filename": "FAN SPEED CONTROL.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,6 +611,12 @@
         },
         {
           "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Arrow Part Number",
           "name": "Arrow Part Number",
           "show": false
@@ -677,7 +683,7 @@
   },
   "sheets": [
     [
-      "91028a09-1bb7-477d-86c8-529a55cf8c3f",
+      "7657062c-5ddc-4370-8652-8d7aeef21799",
       "Root"
     ]
   ],
